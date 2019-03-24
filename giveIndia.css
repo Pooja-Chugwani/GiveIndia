@@ -2,7 +2,7 @@
   :root{
   --base-margin-left:25%;
   --base-margin-top:10%;
-  --base-font-size:25px;
+  --base-font-size:1.5vw;
   }
 
 html {
@@ -17,7 +17,7 @@ html {
 	font-family:Calibri;
 	font-size: var(--base-font-size);
 	border:1px solid;;
-	border-color:gray
+	border-color:gray;
 }
 #outer{
 	margin: 4%;
@@ -28,14 +28,15 @@ html {
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
       border-top: 20px solid #424242;
-	  margin-left:80%
+	  margin-left:85%
 	  
 }
 #heading{
 	color:white;
 	text-align:center;
-	font-size:2vw;
+	font-size:2.5vw;
 	margin: 1.5% 2% 2% 15%;
+	padding: 10px 10px 10px 10px;
 }
 #head{
 	background-color:#424242;
@@ -53,7 +54,7 @@ html {
 #body{
 	border:2px solid;
 	border-color:gray;
-/* margin-top:15px; */
+	height:100%;
 }
 
 p{
@@ -71,16 +72,16 @@ button{
 	width:40%;
 	background-color:#10B91F;
 	border-radius:7px 7px 7px 7px;
-	font-size:30px;
+	font-size: 2vw;
+	
 }
 #amount{
 	width:40%;
 	height:100px;
-	/* margin:20px 20px 20px 40px; */
 	margin:3% 3% 3% 6%;
 	border-radius:5px 5px 5px 5px;
-	font-size:35px;
 	font-weight:bold;
+	font-size:var(--base-font-size);
 }
 #link{
 	display:block;
@@ -110,10 +111,11 @@ button{
 .end-button{
 	width:45%;
 	height:80px;
+	/* 12vh; */
 	border-radius:10px 10px 10px 10px;
 	background-color:#FAFAFA;
 	color:#BFBFBF;
-	font-size:27px;
+	font-size:var(--base-font-size);
 	display:inline-block;
 	font-weight:bold;
 }

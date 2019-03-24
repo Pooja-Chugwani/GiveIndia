@@ -1,0 +1,134 @@
+/*giveIndia.css */  
+  :root{
+  --base-margin-left:25%;
+  --base-margin-top:10%;
+  --base-font-size:25px;
+  }
+
+html {
+	box-sizing: border-box;
+} 
+  
+#outer-border{
+	margin-left: var(--base-margin-left);
+	margin-right:var(--base-margin-left);
+	margin-top: var(--base-margin-top);
+	margin-bottom: var(--base-margin-top) ;
+	font-family:Calibri;
+	font-size: var(--base-font-size);
+	border:1px solid;;
+	border-color:gray
+}
+#outer{
+	margin: 4%;
+}
+#triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 20px solid #424242;
+	  margin-left:80%
+	  
+}
+#heading{
+	color:white;
+	text-align:center;
+	font-size:2vw;
+	margin: 1.5% 2% 2% 15%;
+}
+#head{
+	background-color:#424242;
+	border-radius:7px 7px 7px 7px;
+	height:100px;
+	width:100%;
+	align:center;
+}
+#warning{
+	color:#F2623D;
+	font-weight:bold;	
+	margin-right:2%;
+}
+
+#body{
+	border:2px solid;
+	border-color:gray;
+/* margin-top:15px; */
+}
+
+p{
+	margin:30px 40px 30px 40px;
+	color:#BFBFBF;
+	line-height:1.5;
+	font-size:1.7vw;
+	font-family:Novel Sans Rounded Pro;
+	float:left;
+}
+button{
+	margin:3% 3% 3% 3%;
+	color: white;
+	height:100px;
+	width:40%;
+	background-color:#10B91F;
+	border-radius:7px 7px 7px 7px;
+	font-size:30px;
+}
+#amount{
+	width:40%;
+	height:100px;
+	/* margin:20px 20px 20px 40px; */
+	margin:3% 3% 3% 6%;
+	border-radius:5px 5px 5px 5px;
+	font-size:35px;
+	font-weight:bold;
+}
+#link{
+	display:block;
+	margin-bottom:5%;
+	margin-left:5%;
+	color:#86C6D3;
+	text-decoration:none;
+	font-family:Proband Special Italic;
+}
+#progress-bar{
+	height:30px;
+	width:100%;
+	background-color:#FAFAFA;
+	border-color:#FAFAFA
+}
+#color-progress-bar{
+	width:70%;
+	background-color:#F2623D;
+	padding:15px;
+}
+
+#footer{
+	display:inline-block;
+	width:100%;
+}
+
+.end-button{
+	width:45%;
+	height:80px;
+	border-radius:10px 10px 10px 10px;
+	background-color:#FAFAFA;
+	color:#BFBFBF;
+	font-size:27px;
+	display:inline-block;
+	font-weight:bold;
+}
+#save-for-later{
+	margin-left:2%;
+	margin-right:2%;
+}
+#tell-your-friends{
+	margin-left:2%;
+	margin-right:2%;
+}
+#text{
+	display:inline}
+
+#not-warning{
+	float:left;
+	margin-left:1%;
+}  
